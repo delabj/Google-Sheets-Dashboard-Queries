@@ -1,0 +1,43 @@
+=QUERY({
+  filter(
+    IMPORTRANGE("URL","'7th SS'!A1:E"),
+    '7th SS'!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE("URL","'8th SS'!A1:E"),
+    '8th SS'!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE("URL", "'7th ELA'!A1:E"),
+    '7th ELA'!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE("URL", "'8th ELA'!A1:E"),
+    '8th ELA'!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE("URL","'7th Science'!A1:E"),
+    '7th Science'!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE("URL","'8th Science'!A1:E"),
+    '8th Science'!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE("URL","'7th Math'!A1:E"),
+    '8th Science'!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE("URL", "'8th Math'!A1:E"),
+    '8th Math'!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE( "URL","'Music'!A1:E"),
+    Music!A1:A<>""
+  );
+  filter(
+    IMPORTRANGE("URL","'Wellness'!A1:E"),
+    Wellness!A1:A<>""
+  )}, 
+  
+  "SELECT * WHERE Col5 != 'Sheet Name'",1)
