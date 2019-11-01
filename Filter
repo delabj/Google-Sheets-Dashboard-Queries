@@ -1,0 +1,32 @@
+=iferror(if(
+   OR(F2="Both", D2="ALL"),
+   IF(
+      And(F2="Both", D2="All"),
+      filter(
+      step1!A:H,
+      to_date(int(step1!A:A)) >= D3, 
+      to_date(int(step1!A:A)) <= F3
+   ),
+      IF(D2="All", 
+         filter(
+          step1!A:H,
+          to_date(int(step1!A:A)) >= D3, 
+          to_date(int(step1!A:A)) <= F3,
+          step1!G:G=F2
+         ),
+         filter(
+          step1!A:H,
+          to_date(int(step1!A:A)) >= D3, 
+          to_date(int(step1!A:A)) <= F3,
+          step1!F:F=D2
+         )
+      )
+   ),
+   filter(
+          step1!A:H,
+          to_date(int(step1!A:A)) >= D3, 
+          to_date(int(step1!A:A)) <= F3,
+          step1!G:G=F2,
+          step1!F:F=D2
+         )
+),"No Data")
