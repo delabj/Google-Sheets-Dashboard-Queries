@@ -1,0 +1,74 @@
+=IFERROR({'Drop Downs'!E1:G1; ARRAYFORMULA(
+        if(D3="Subject",
+                if(B2="All SCHOOLS", 
+                        if(B3="ALL", 
+                             Query(
+                                                                        {
+                                                                                Filter('Subject View'!A:F,
+                                                                                        'Subject View'!A1:A <> "Building"
+                                                                                )
+                                                                        }, 
+                                                                        "SELECT Col4, Col5, Col6", 
+                                                                        0
+                                                                ),
+                             Query(
+                                                                        {
+                                                                                Filter('Subject View'!A:F,
+                                                                                        'Subject View'!B1:B = B3
+                                                                                )
+                                                                        }, 
+                                                                        "SELECT Col4, Col5, Col6", 
+                                                                        0
+                                                                )
+                        ),
+                        if(OR(B2="SECONDARY", B2="ELEMENTARY"), 
+                                                        if(B3="All", 
+                                                                Query(
+                                                                        {
+                                                                                Filter('Subject View'!A:F,
+                                                                                        'Subject View'!C1:C = B2
+                                                                                )
+                                                                        }, 
+                                                                        "SELECT Col4, Col5, Col6", 
+                                                                        0
+                                                                ), 
+                                                                Query(
+                                                                        {
+                                                                                Filter('Subject View'!A:F,
+                                                                                        'Subject View'!C1:C = B2,
+                                                                                        'Subject View'!B1:B = B3
+                                                                                )
+                                                                        }, 
+                                                                        "SELECT Col4, Col5, Col6", 
+                                                                        0
+                                                                )
+                                                        ),
+                                                        if(B3="All", 
+                                                                Query(
+                                                                        {
+                                                                                Filter('Subject View'!A:F,
+                                                                                        'Subject View'!A1:A = B2
+                                                                                )
+                                                                        }, 
+                                                                        "SELECT Col4, Col5, Col6", 
+                                                                        0
+                                                                ), 
+                                                                Query(
+                                                                        {
+                                                                                Filter('Subject View'!A:F,
+                                                                                        'Subject View'!A1:A = B2,
+                                                                                        'Subject View'!B1:B = B3
+                                                                                )
+                                                                        }, 
+                                                                        "SELECT Col4, Col5, Col6", 
+                                                                        0
+                                                                )
+                                                        ) 
+                                                )
+                ),
+                ""
+        )
+        )},"")
+        
+        
+                
