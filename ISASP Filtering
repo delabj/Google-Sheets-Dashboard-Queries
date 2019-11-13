@@ -49,6 +49,10 @@
 )
 
 ## this creates the subject view
+=QUERY(filter('Reduced Data'!A2:R, 'Reduced Data'!J2:J <> ""), "SELECT Col1,Col7, Col15, Col4, Col9,Col10 ORDER By Col16, Col9", 0)
+
+
+## this displays the subject view
 =ArrayFormula(
         if(D3="Subject",
                 if(B2="All SCHOOLS"
