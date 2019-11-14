@@ -98,3 +98,68 @@
                 ""
         )
 )
+
+
+
+
+######################################################################
+Table for lookups in selected data. 
+
+
+Subject	Grade	Subtest	Column of Lable	Column of percent Correct
+Reading	All	KID	I:I	J:J
+Reading	All	CS	M:M	N:N
+Reading	All	IKI	Q:Q	R:R
+Language/Writing	All	RPK	U:U	V:V
+Language/Writing	All	PDW	Y:Y	Z:Z
+Language/Writing	All	TTP	AC:AC	AD:AD
+Language/Writing	All	COSE-KOL	AG:AG	AH:AH
+Language/Writing	All	VAU	AK:AK	AL:AL
+Science	All	LS	BI:BI	BJ:BJ
+Science	All	PS	BM:BM	BN:BN
+Science	All	ES	BQ:BQ	BR:BR
+Math	3	OA	AO:AO	AP:AP
+Math	3	NBT	AS:AS	AT:AT
+Math	3	NF	AW:AW	AX:AX
+Math	3	MD	BA:BA	BB:BB
+Math	3	G	BE:BE	BF:BF
+Math	4	OA	AO:AO	AP:AP
+Math	4	NBT	AS:AS	AT:AT
+Math	4	NF	AW:AW	AX:AX
+Math	4	MD	BA:BA	BB:BB
+Math	4	G	BE:BE	BF:BF
+Math	5	OA	AO:AO	AP:AP
+Math	5	NBT	AS:AS	AT:AT
+Math	5	NF	AW:AW	AX:AX
+Math	5	MD	BA:BA	BB:BB
+Math	5	G	BE:BE	BF:BF
+Math	6	RP	AO:AO	AP:AP
+Math	6	NS	AS:AS	AT:AT
+Math	6	EE	AW:AW	AX:AX
+Math	6	SP	BA:BA	BB:BB
+Math	6	G	BE:BE	BF:BF
+Math	7	RP	AO:AO	AP:AP
+Math	7	NS	AS:AS	AT:AT
+Math	7	EE	AW:AW	AX:AX
+Math	7	SP	BA:BA	BB:BB
+Math	7	G	BE:BE	BF:BF
+Math	8	F	AO:AO	AP:AP
+Math	8	NS	AS:AS	AT:AT
+Math	8	EE	AW:AW	AX:AX
+Math	8	SP	BA:BA	BB:BB
+Math	8	G	BE:BE	BF:BF
+Math	9	G	AO:AO	AP:AP
+Math	9	S	AS:AS	AT:AT
+Math	9	F	AW:AW	AX:AX
+Math	9	A	BA:BA	BB:BB
+Math	9	N	BE:BE	BF:BF
+Math	10	G	AO:AO	AP:AP
+Math	10	S	AS:AS	AT:AT
+Math	10	F	AW:AW	AX:AX
+Math	10	A	BA:BA	BB:BB
+Math	10	N	BE:BE	BF:BF
+Math	11	G	AO:AO	AP:AP
+Math	11	S	AS:AS	AT:AT
+Math	11	F	AW:AW	AX:AX
+Math	11	A	BA:BA	BB:BB
+Math	11	N	BE:BE	BF:BF
