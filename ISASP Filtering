@@ -163,3 +163,32 @@ Math	11	S	AS:AS	AT:AT
 Math	11	F	AW:AW	AX:AX
 Math	11	A	BA:BA	BB:BB
 Math	11	N	BE:BE	BF:BF
+
+
+#############################################################################
+
+
+=iferror(
+     AverageIFS( 
+        indirect("'Select ISASP DATA'!"&
+           index( 'Indirect Tables'!$E:$E, 
+                 MATCH(1, 
+                      ($A4='Indirect Tables'!$B:$B)*(#REF!='Indirect Tables'!$C:$C),0
+                 )
+           )
+        ),
+        indirect("'Select ISASP DATA'!"&
+           index( 'Indirect Tables'!$D:$D, 
+                 MATCH(1, 
+                      ($A4='Indirect Tables'!$B:$B)*(#REF!='Indirect Tables'!$C:$C),0
+                 )
+           )
+        ),
+        Q$3,
+       'Select ISASP DATA'!$F:$F,
+       #REF!,
+       'Select ISASP DATA'!$A:$A, 
+       $B$1
+  )/100,
+    "NA"
+)
