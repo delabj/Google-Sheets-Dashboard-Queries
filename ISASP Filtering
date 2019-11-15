@@ -192,3 +192,27 @@ Math	11	N	BE:BE	BF:BF
   )/100,
     "NA"
 )
+
+
+####################################################################
+## Making my data in a tidy format for use in R
+
+## Do this for each range you want to import. 
+
+={
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O"); 
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O");
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O"); 
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O");
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O"); 
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O");
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O"); 
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O");
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O"); 
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O");
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O"); 
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O");
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O"); 
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O");
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O"); 
+IMPORTRANGE("https://docs.google.com/spreadsheets/d/1kWT5k1_CVyu4pWsr-s3acCOfw-MVkjKs6VRRTLQayU4/", "Data!o2:O")}
