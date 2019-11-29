@@ -186,7 +186,7 @@ Math	11	N	BE:BE	BF:BF
         ),
         Q$3,
        'Select ISASP DATA'!$F:$F,
-       #REF!,
+       A2,
        'Select ISASP DATA'!$A:$A, 
        $B$1
   )/100,
